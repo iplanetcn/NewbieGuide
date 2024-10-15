@@ -10,12 +10,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".MainActivity" />
         <activity android:name=".TestFragmentActivity" />
-        <activity android:name=".GridViewActivity"></activity>
-        <activity android:name=".FirstActivity">
+        <activity android:name=".GridViewActivity" />
+        <activity
+            android:name=".FirstActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,7 +23,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".RecyclerViewActivity" />
-
         <activity android:name=".ScrollViewActivity" />
     </application>
 
